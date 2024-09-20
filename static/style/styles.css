@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #edeef0;
+    height: 100%;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    top: 45px;   
+}
+
+main{
+display: flex;
+justify-content: center;
+position: relative;
+right: 10%;
+
+
+}
+
+.centermain{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    width: 15vw;
+    justify-content: center; 
+    margin-right: 30px;   
+    max-width: 200px;
+}
+
+.textlink{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;    
+    font-size: 0.9em;
+}
+
+
+.text{
+    width: 470px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+   font-size: 0.95em;
+   height: 100%;
+   background-color: white;
+   border-radius: 2.5%;
+   font-family: Arial, sans-serif; 
+   justify-content: center;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   padding-bottom: 0px;
+}
+
+.cat{
+    width: 470px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 0.95em;
+    height: 100%;
+    background-color: white;
+    border-radius: 2.5%;
+    font-family: Arial, sans-serif; 
+    justify-content: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.cat img{
+    width: 100%;
+    height: 100%;
+}
+
+.threesection{
+   
+    width: 470px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 0.95em;
+    height: 100%;
+    background-color: white;
+    border-radius: 2.5%;
+    font-family: Arial, sans-serif; 
+    justify-content: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-bottom: 0px; 
+}
+
+.foursection{
+    width: 470px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+   font-size: 0.95em;
+   height: 100%;
+   background-color: white;
+   border-radius: 2.5%;
+   font-family: Arial, sans-serif; 
+   justify-content: center;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   padding-bottom: 0px;
+}
+
+.fivesection{
+    width: 470px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+   font-size: 0.95em;
+   height: 100%;
+   background-color: white;
+   border-radius: 2.5%;
+   font-family: Arial, sans-serif; 
+   justify-content: center;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   padding-bottom: 0px;
+}
+
+.rightsection{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(420%);
+    position: fixed;
+    /* z-index: 1; */
+}
+
+.firstright{
+    margin-top: 20px;
+background-color: white;
+border-radius: 2.5%;
+padding-top: 20px; 
+padding-bottom: 20px; 
+padding-right:10px;
+padding-left:10px; 
+width: 150px;
+/* height: 100%; */
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.genright{
+    background-color: #edeef0;
+}
+
+.secondspan{
+  margin-top: 20px;
+}
+
+.secondright{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 2.5%;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-right:10px;
+    padding-left:10px; 
+    width: 150px;
+    /* height: 100%; */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.thirdspan{
+    font-weight: 700;
+    width: 70%;
+    font-family: Arial, sans-serif;
+  }
+
+.someheader{
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.fourspan{
+    margin-top: 20px;
+  }
+
+.aLink{
+    text-align:justify;
+    padding: 12px 8px 12px 5px;
+    color: #2e5473;
+    /* width: 100%; */
+}
+
+
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+   justify-content:start;
+    background-color: #507299;
+    height: 45px;
+    color: white;
+    font-family: Arial, sans-serif; 
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+background-color:white;
+height: 30px;
+margin-top: auto;
+color: rgb(176, 172, 172);
+font-size: 1em;
+font-family: Arial, sans-serif; 
+margin-top: 20px;
+
+
+}
+
+.mainP{
+    text-align:justify;
+}
+
+p::selection{
+    background-color: #edeef0;
+    color: green;
+}
+
+/* p::first-letter {
+    font-size: 1.2em; /* Увеличенный размер шрифта 
+    font-family: Arial, sans-serif; 
+    color: red;
+   
+   
+} */
+
+hr {
+    border: none;
+    height: 3px; /* Толщина полоски */
+    background-color: #cacbcc; /* Цвет полоски */
+    /* width: 100%; Ширина полоски */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+.threehr{
+ margin-left: -20px;
+ margin-right: -20px;
+}
+
+.likecomment{  
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+    transform: scaleY(1.08);
+}
+
+
+a:hover {
+    background-color: #e1e5eb;
+    
+    
+}
+
+@media (max-width: 1000px){
+.container{
+    overflow-x: hidden;
+}
+
+    .rightsection{
+        display: none;
+    }
+
+    main{
+        justify-content: flex-start; 
+        right: 0%;
+        left: 5%;
+    }
+
+    .link{
+        width: 20vw;
+        max-width: 400px;
+    }
+    .textlink{
+
+    }
+        
+    
+}
+
+@media (max-width: 700px){
+    .container{
+       width: 100%; 
+       overflow-x: hidden;
+    }
+
+    .rightsection{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        right: 0%;
+        left: 5%;
+    }
+
+    .link{
+        max-width: 500px;
+        width: auto;
+        height: auto;  
+        position: relative;
+        left:65px;
+        margin-bottom: 20px;
+    }
+
+    .textlink{
+        flex-direction: row;
+        /* width: 100%; */
+        /* max-width: none; */
+        /* height: auto; */
+        /* text-align: center; */
+        flex-wrap: wrap;
+    }
+      
+    .aLink{
+        /* display: inline; */
+        /* text-align:center; */
+        /* margin-top: 15px; */
+        color: #2e5473;
+        word-wrap: break-word;
+        /* margin-right: 20px; */
+        
+       
+    }
+    
+    
+}
